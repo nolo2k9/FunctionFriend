@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FunctionFriend.Timers">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="displayStopwatch"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                   TextColor= "Black"
+                   FontSize="40"
+                  
+                   >
+
+            </Label>
+            <Button x:Name="Start" Clicked="Start_Clicked" Text="Start" TextColor="Black" BackgroundColor="Green" WidthRequest="100" HeightRequest="100"></Button>
+            <Button x:Name="Stop" Clicked ="Stop_Clicked" Text="Stop" TextColor="Black" BackgroundColor="Red"  WidthRequest="100" HeightRequest="100"></Button>
+            <Button x:Name="Reset" Clicked ="Reset_Clicked" Text="Reset" TextColor="Black" BackgroundColor="Blue"  WidthRequest="100" HeightRequest="100"></Button>
+
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

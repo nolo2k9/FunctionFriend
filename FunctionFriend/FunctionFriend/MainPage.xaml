@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FunctionFriend"
+             x:Class="FunctionFriend.MainPage">
+    <ContentPage.ToolbarItems>
+
+        <ToolbarItem Name="Logo" Order="Primary" Icon="login"  Priority="1" Text="Function Friend" />
+        <ToolbarItem Name="Bmi" Order="Primary" Icon="bmi"  Priority="2" Text="Bmi Calculator" Clicked="bmi_Clicked"/>
+        <ToolbarItem Name="Timers" Order="Primary" Icon="Timers.png"  Priority="3" Text="Stopwatch" Clicked="timers_Clicked"/>
+        <ToolbarItem Name="flashLight" Order="Primary" Icon="flashlight.png"  Priority="4" Text="FlashLight" Clicked="flash_Clicked"/>
+        <ToolbarItem Name="Recipies" Order="Primary" Icon="recipe.png"  Priority="5" Text="Recipies" Clicked="Recipies_Clicked"/>
+
+    </ContentPage.ToolbarItems>
+    <Grid>
+        <Button Image="bmi.png" BorderRadius="30" Grid.Row="0" Grid.Column="0" BackgroundColor =" #429de3" Clicked="bmi_Clicked"/>
+        <Button Image="Timers.png" BorderRadius="30" Grid.Row="0" Grid.Column="1" BackgroundColor="#429de3" Clicked ="timers_Clicked"  />
+        <Button Image="flashlight.png" BorderRadius="30" Grid.Row="1" Grid.Column="0" BackgroundColor="#429de3" Clicked ="flash_Clicked"  />
+
+
+
+
+
+
+
+    </Grid>
+
+</ContentPage>

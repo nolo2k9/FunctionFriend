@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FunctionFriend.Flash">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+    <Button Text="Turn on " x:Name="Button_Clicked" Clicked="Button_OnClicked"></Button>
+    <Button Text="Turn Off" x:Name="off_Clicked" Clicked="Button_OffClicked"></Button>
+
+    </StackLayout>
+
+</ContentPage>
