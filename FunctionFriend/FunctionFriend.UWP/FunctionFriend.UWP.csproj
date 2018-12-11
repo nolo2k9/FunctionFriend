@@ -104,12 +104,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\bmi.png" />
+    <Content Include="Assets\excercise.png" />
     <Content Include="Assets\flashlight.png" />
     <Content Include="Assets\Home.png" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
     <Content Include="Assets\LargeTile.scale-400.png" />
     <Content Include="Assets\login.png" />
+    <Content Include="Assets\qr.png" />
     <Content Include="Assets\recipe.png" />
     <Content Include="Assets\SmallTile.scale-100.png" />
     <Content Include="Assets\SmallTile.scale-200.png" />
@@ -154,6 +156,9 @@
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.5" />
+    <PackageReference Include="ZXing.Net.Mobile.Forms">
+      <Version>2.3.2</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FunctionFriend\FunctionFriend.csproj">

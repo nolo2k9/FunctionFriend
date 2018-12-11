@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FunctionFriend.QR">
+    <ContentPage.Content>
+        
+            <StackLayout>
+                <Button Text="Scan away" Clicked="Scanner_Clicked"></Button>
+                <Label Text="" x:Name="leCode" TextColor="Black" TextDecorations="Underline" HorizontalOptions="Center"/>
+            </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
