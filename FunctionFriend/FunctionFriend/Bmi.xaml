@@ -1,13 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FunctionFriend.Bmi">
+             x:Class="FunctionFriend.Bmi" BackgroundColor="#429de3">
+
+    
     <StackLayout>
+        
+        
         <!-- App Info / Result Display -->
-        <Label Text="BMI Calculator" 
+        <Label Text="Body Mass Index – (BMI) is a handy guide to the healthy weight range for your height" 
                x:Name="lblDisplay"
            HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+           VerticalOptions="CenterAndExpand" 
+            TextColor="Black"/>
+        <Label 
+            x:Name="lblDisplay2"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" 
+            TextColor="Black"/>
+
 
         <!-- Input Height -->
         <Entry HorizontalOptions="Center" 
@@ -20,7 +31,7 @@
                Placeholder="Enter Your Weight Here (Kilograms):"/>
 
         <!-- Preform Calculation & Display result -->
-        <Button Text="Get My BMI!"
+        <Button Text="Find out Your BMI"
                 x:Name="btnChangeLabel"
                 Clicked="btnChangeLabel_Clicked"/>
         </StackLayout>
