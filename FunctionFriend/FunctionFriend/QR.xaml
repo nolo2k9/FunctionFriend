@@ -1,11 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FunctionFriend.QR">
+             x:Class="FunctionFriend.QR" BackgroundColor="#429de3">
     <ContentPage.Content>
         
             <StackLayout>
-                <Button Text="Scan away" Clicked="Scanner_Clicked"></Button>
+            <Label Text="Use this QR and barcode scanner to scan all of the QR and barcodes you encounter throughout your Journey!!. "
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" 
+            TextColor="Black"/>
+            <Button Text="Scan away" Clicked="Scanner_Clicked"></Button>
                 <Label Text="" x:Name="leCode" TextColor="Black" TextDecorations="Underline" HorizontalOptions="Center"/>
             </StackLayout>
         

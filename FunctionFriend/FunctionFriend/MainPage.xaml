@@ -2,18 +2,22 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FunctionFriend"
-             x:Class="FunctionFriend.MainPage">
+             x:Class="FunctionFriend.MainPage" BackgroundColor="Black">
     <ContentPage.ToolbarItems>
 
-        <ToolbarItem Name="Logo" Order="Primary" Icon="login"  Priority="1" Text="Function Friend" />
-        <ToolbarItem Name="Bmi" Order="Primary" Icon="bmi"  Priority="2" Text="Bmi Calculator" Clicked="bmi_Clicked"/>
-        <ToolbarItem Name="Timers" Order="Primary" Icon="Timers.png"  Priority="3" Text="Stopwatch" Clicked="timers_Clicked"/>
-        <ToolbarItem Name="flashLight" Order="Primary" Icon="flashlight.png"  Priority="4" Text="FlashLight" Clicked="flash_Clicked"/>
-        <ToolbarItem Name="Recipies" Order="Primary" Icon="recipe.png"  Priority="5" Text="Recipies" Clicked="Recipies_Clicked"/>
-        <ToolbarItem Name="QR/Barcode Scanner" Order="Primary" Icon="qr.png"  Priority="6" Text="QR_Barcode Scanner" Clicked ="qr_clicked"/>
-        <ToolbarItem Name="Excercise" Order="Primary" Icon="excercise.png"  Priority="7" Text="Excercise" Clicked ="Excercise_Clicked"/>
-
+        <ToolbarItem Name="Logo" Order="Primary" Icon="login"  Priority="1" Text="Function Friend"   />
+      
     </ContentPage.ToolbarItems>
-    
+    <StackLayout>
 
+        <Grid>
+            <Button Image="bmi.png" BorderRadius="30" Grid.Row="0" Grid.Column="0" BackgroundColor =" #429de3" Clicked="bmi_Clicked"  BorderColor="Black" />
+            <Button Image="Timers.png" BorderRadius="30" Grid.Row="0" Grid.Column="1" BackgroundColor="#429de3" Clicked ="timers_Clicked"  BorderColor="Black" />
+            <Button Image="flashlight.png" BorderRadius="30" Grid.Row="1" Grid.Column="0" BackgroundColor="#429de3" Clicked ="flash_Clicked"  BorderColor="Black"/>
+            <Button Image="recipe.png" BorderRadius="30" Grid.Row="1" Grid.Column="1" BackgroundColor ="#429de3" Clicked="Recipies_Clicked"  BorderColor="Black"/>
+            <Button Image="qr.png" BorderRadius="30" Grid.Row="2" Grid.Column="0" BackgroundColor="#429de3" Clicked ="qr_clicked"  BorderColor="Black" />
+            <Button Image="excercise.png" BorderRadius="30" Grid.Row="2" Grid.Column="1" BackgroundColor="#429de3" Clicked ="Excercise_Clicked"  BorderColor="Black"/>
+        </Grid>
+
+    </StackLayout>
 </ContentPage>

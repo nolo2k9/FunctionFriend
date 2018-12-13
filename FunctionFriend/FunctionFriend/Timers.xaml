@@ -14,7 +14,7 @@
 
             </Label>
             <Button x:Name="Start" Clicked="Start_Clicked" Text="Start" TextColor="Black" BackgroundColor="Green" WidthRequest="100" HeightRequest="100"></Button>
-            <Button x:Name="Stop" Clicked ="Stop_Clicked" Text="Stop" TextColor="Black" BackgroundColor="Red"  WidthRequest="100" HeightRequest="100"></Button>
+            <Button x:Name="Stop" Clicked ="Stop_Clicked" Text="Pause" TextColor="Black" BackgroundColor="Red"  WidthRequest="100" HeightRequest="100"></Button>
             <Button x:Name="Reset" Clicked ="Reset_Clicked" Text="Reset" TextColor="Black" BackgroundColor="Blue"  WidthRequest="100" HeightRequest="100"></Button>
 
 

@@ -6,7 +6,6 @@
     
     <StackLayout>
         
-        
         <!-- App Info / Result Display -->
         <Label Text="Body Mass Index – (BMI) is a handy guide to the healthy weight range for your height" 
                x:Name="lblDisplay"

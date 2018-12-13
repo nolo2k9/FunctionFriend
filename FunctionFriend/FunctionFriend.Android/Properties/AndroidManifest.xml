@@ -3,5 +3,5 @@
 	<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="27" />
 	<uses-permission android:name="android.permission.CAMERA" />
 	<uses-permission android:name="android.permission.FLASHLIGHT" />
-	<application android:label="FunctionFriend.Android"></application>
+	<application android:label="FunctionFriend.Android" android:icon="@drawable/splash"></application>
 </manifest>
