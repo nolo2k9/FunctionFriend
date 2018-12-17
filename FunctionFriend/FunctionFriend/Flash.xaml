@@ -3,8 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FunctionFriend.Flash" BackgroundColor="#429de3">
     <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-    <Button Text="Light her up!!!! " x:Name="Button_Clicked" Clicked="Button_OnClicked"></Button>
-    <Button Text="Turn Off" x:Name="off_Clicked" Clicked="Button_OffClicked"></Button>
+        <Label Text="FlashLight for lighting up those darl areas. (Please ensure You have enabled flashLight settings for this app) "
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" 
+            TextColor="Black"/>
+        <Button Text="Light her up!!!! " x:Name="Button_Clicked" Clicked="Button_OnClicked" BackgroundColor="Gold" TextColor ="Black"></Button>
+        <Button Text="Turn Off" x:Name="off_Clicked" Clicked="Button_OffClicked" BackgroundColor="Red" TextColor ="Black"></Button>
 
     </StackLayout>
 

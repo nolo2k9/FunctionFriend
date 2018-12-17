@@ -25,10 +25,10 @@
     <EmbeddedResource Update="Flash.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="QR.xaml">
+    <EmbeddedResource Update="Locaton.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Recipies.xaml">
+    <EmbeddedResource Update="QR.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Timers.xaml">

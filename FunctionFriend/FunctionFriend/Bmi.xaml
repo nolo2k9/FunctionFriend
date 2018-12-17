@@ -32,6 +32,8 @@
         <!-- Preform Calculation & Display result -->
         <Button Text="Find out Your BMI"
                 x:Name="btnChangeLabel"
-                Clicked="btnChangeLabel_Clicked"/>
+                Clicked="btnChangeLabel_Clicked"
+                BackgroundColor="Gold"
+                TextColor="Black"/>
         </StackLayout>
 </ContentPage>

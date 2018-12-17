@@ -28,9 +28,9 @@ namespace FunctionFriend
             await Navigation.PushAsync(new Flash());
         }
 
-       async void Recipies_Clicked(object sender, EventArgs e)
+       async void Location_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Recipies());
+            await Navigation.PushAsync(new Locaton());
         }
         async void qr_clicked(object sender, EventArgs e)
         {

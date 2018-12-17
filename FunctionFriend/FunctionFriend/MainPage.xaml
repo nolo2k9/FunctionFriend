@@ -14,7 +14,7 @@
             <Button Image="bmi.png" BorderRadius="30" Grid.Row="0" Grid.Column="0" BackgroundColor =" #429de3" Clicked="bmi_Clicked"  BorderColor="Black" />
             <Button Image="Timers.png" BorderRadius="30" Grid.Row="0" Grid.Column="1" BackgroundColor="#429de3" Clicked ="timers_Clicked"  BorderColor="Black" />
             <Button Image="flashlight.png" BorderRadius="30" Grid.Row="1" Grid.Column="0" BackgroundColor="#429de3" Clicked ="flash_Clicked"  BorderColor="Black"/>
-            <Button Image="recipe.png" BorderRadius="30" Grid.Row="1" Grid.Column="1" BackgroundColor ="#429de3" Clicked="Recipies_Clicked"  BorderColor="Black"/>
+            <Button Image="location.png" BorderRadius="30" Grid.Row="1" Grid.Column="1" BackgroundColor ="#429de3" Clicked="Location_Clicked"  BorderColor="Black"/>
             <Button Image="qr.png" BorderRadius="30" Grid.Row="2" Grid.Column="0" BackgroundColor="#429de3" Clicked ="qr_clicked"  BorderColor="Black" />
             <Button Image="excercise.png" BorderRadius="30" Grid.Row="2" Grid.Column="1" BackgroundColor="#429de3" Clicked ="Excercise_Clicked"  BorderColor="Black"/>
         </Grid>

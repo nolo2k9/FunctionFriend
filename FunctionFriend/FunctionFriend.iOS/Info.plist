@@ -47,5 +47,7 @@
 	</array>
 	<key>XSLaunchImageAssets</key>
 	<string>Assets.xcassets/LaunchImages.launchimage</string>
+  <key>NSLocationWhenInUseUsageDescription</key>
+  <string>This FunctionFriend needs access location when open.</string>
 </dict>
 </plist>

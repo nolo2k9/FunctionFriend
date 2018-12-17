@@ -5,11 +5,11 @@
     <ContentPage.Content>
         
             <StackLayout>
-            <Label Text="Use this QR and barcode scanner to scan all of the QR and barcodes you encounter throughout your Journey!!. "
+            <Label Text="Use this QR and barcode scanner to scan all of the QR and barcodes you encounter throughout your Journey!! (Please ensure You have enabled Camera settings for this app). "
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" 
             TextColor="Black"/>
-            <Button Text="Scan away" Clicked="Scanner_Clicked"></Button>
+            <Button Text="Scan away" Clicked="Scanner_Clicked" BackgroundColor="Gold" TextColor="Black"></Button>
                 <Label Text="" x:Name="leCode" TextColor="Black" TextDecorations="Underline" HorizontalOptions="Center"/>
             </StackLayout>
         
