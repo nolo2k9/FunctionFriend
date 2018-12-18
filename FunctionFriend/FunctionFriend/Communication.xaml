@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FunctionFriend.Communication">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Button
+            Text="SMS"
+            Clicked="SMS_Clicked"
+                BackgroundColor="Green"
+                TextColor="Black">
+            </Button>
+
+            <Button
+            Text="TelePhone"
+            Clicked="TelePhone_Clicked"
+                BackgroundColor="Red"
+                TextColor="Black">
+            </Button>
+
+            <Button
+            Text="Email."
+            Clicked="Email_Clicked"
+                BackgroundColor="Yellow"
+                TextColor="Black">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

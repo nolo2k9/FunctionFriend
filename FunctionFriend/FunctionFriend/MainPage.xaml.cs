@@ -37,9 +37,12 @@ namespace FunctionFriend
             await Navigation.PushAsync(new QR());
         }
 
-        async void Excercise_Clicked(object sender, EventArgs e)
+        async void Comunmication_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Exercise());
+            await Navigation.PushAsync(new Communication());
         }
+
+       
+        
     }
 }

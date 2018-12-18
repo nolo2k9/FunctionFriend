@@ -16,7 +16,8 @@
             <Button Image="flashlight.png" BorderRadius="30" Grid.Row="1" Grid.Column="0" BackgroundColor="#429de3" Clicked ="flash_Clicked"  BorderColor="Black"/>
             <Button Image="location.png" BorderRadius="30" Grid.Row="1" Grid.Column="1" BackgroundColor ="#429de3" Clicked="Location_Clicked"  BorderColor="Black"/>
             <Button Image="qr.png" BorderRadius="30" Grid.Row="2" Grid.Column="0" BackgroundColor="#429de3" Clicked ="qr_clicked"  BorderColor="Black" />
-            <Button Image="excercise.png" BorderRadius="30" Grid.Row="2" Grid.Column="1" BackgroundColor="#429de3" Clicked ="Excercise_Clicked"  BorderColor="Black"/>
+            <Button Image="conect.png" BorderRadius="30" Grid.Row="2" Grid.Column="1" BackgroundColor="#429de3" Clicked ="Comunmication_Clicked"  BorderColor="Black"/>
+
         </Grid>
 
     </StackLayout>
