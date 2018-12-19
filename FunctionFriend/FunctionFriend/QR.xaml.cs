@@ -17,9 +17,10 @@ namespace FunctionFriend
             InitializeComponent();
         }
 
-
+        //Method exeuctes if 'scan away' button is clicked
         private async void Scanner_Clicked(object sender, EventArgs e)
         {
+            // sets scanner ZXingScannerPage instance
             var scanner = new ZXingScannerPage();
             await Navigation.PushAsync(scanner);
             scanner.OnScanResult += (result) =>
@@ -27,6 +28,7 @@ namespace FunctionFriend
                 Device.BeginInvokeOnMainThread(async () =>
                 {
                     await Navigation.PopAsync();
+                    //returns whats read to text
                     leCode.Text = result.Text;
                 });
 

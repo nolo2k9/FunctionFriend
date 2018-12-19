@@ -17,7 +17,7 @@ namespace FunctionFriend
 			InitializeComponent ();
 		}
 
-
+        //Method excecutes if 'sms' is clicked
         private void SMS_Clicked(object sender, EventArgs e)
         {
             //Send an SMS
@@ -28,18 +28,20 @@ namespace FunctionFriend
                 sendSms.SendSms("+353858143100", "Hello, Sent from Funtion Friend");
 
         }
+        //Method excecutes if 'Telephone' is clicked
         private void TelePhone_Clicked(object sender, EventArgs e)
         {
             //Brings user to a phone dialler 
             var phone = CrossMessaging.Current.PhoneDialer;
-            //Checks to see if platform can send message
+            //Checks to see if platform can make call
             if (phone.CanMakePhoneCall)
                 phone.MakePhoneCall("999", "Emergency Services");
         }
-
+        //Method excecutes if 'Email' is clicked
         private void Email_Clicked(object sender, EventArgs e)
         {
             var email = CrossMessaging.Current.EmailMessenger;
+            //Checks to see if platform can send email
             if (email.CanSendEmail)
             {
                 //sends an email with no attachments

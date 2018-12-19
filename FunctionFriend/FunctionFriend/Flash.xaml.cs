@@ -17,6 +17,7 @@ namespace FunctionFriend
 			InitializeComponent ();
 		}
 
+        //Method exeuctes if on button is clicked
         private async void Button_OnClicked(object sender, EventArgs e)
         {
             try
@@ -40,7 +41,7 @@ namespace FunctionFriend
 
         }
 
-
+        //Method exeuctes if off button is clicked
         private async void Button_OffClicked(object sender, EventArgs e)
         {
             try

@@ -11,6 +11,7 @@ namespace FunctionFriend
 {
     public class StartPage : ContentPage
     {
+        //spash page image
         Image SpalshPic;
 
 
@@ -20,16 +21,19 @@ namespace FunctionFriend
             var sub = new AbsoluteLayout();
             SpalshPic = new Image
             {
+                //image source
                 Source = "login",
                 WidthRequest = 100,
                 HeightRequest = 100
             };
+            //sets layout flags and postions and bounds
             AbsoluteLayout.SetLayoutFlags(SpalshPic,
                 AbsoluteLayoutFlags.PositionProportional);
             AbsoluteLayout.SetLayoutBounds(SpalshPic,
                 new Rectangle(0.5, 0.5, AbsoluteLayout.AutoSize, AbsoluteLayout.AutoSize));
 
             sub.Children.Add(SpalshPic);
+            //sets background colour
             this.BackgroundColor = Color.FromHex("#429de3");
             this.Content = sub;
 

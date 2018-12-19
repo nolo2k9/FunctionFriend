@@ -30,8 +30,10 @@ namespace FunctionFriend
             Start.Text = "Start";
 
             stopwatch.Start();
+            //sets timer to start from milliseconds
             Device.StartTimer(TimeSpan.FromMilliseconds(100), () =>
             {
+                //returns timer to string
                 displayStopwatch.Text = stopwatch.Elapsed.ToString();
                 return true;
             }

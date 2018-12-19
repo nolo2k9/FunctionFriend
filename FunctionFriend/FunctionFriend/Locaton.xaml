@@ -9,7 +9,8 @@
                x:Name="lblDisplay"
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" 
-            TextColor="Black"/>
+            TextColor="Black"
+              />
             <Button Text="Find your current location Stats" x:Name="GetLocationBtn" Clicked="GetLocationBtn_Clicked" BackgroundColor="Gold" TextColor="Black"></Button>
             <Label Text="Longitude and Lattitude" x:Name="longLat" TextColor="Black" />
 

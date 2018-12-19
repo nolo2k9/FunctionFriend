@@ -18,7 +18,7 @@ namespace FunctionFriend
 		}
 
 
-        //Method that does all the work!
+        
         private void btnChangeLabel_Clicked(object sender, EventArgs e)
         {
             //Converting String inputs to Doubles for calculation
@@ -34,7 +34,7 @@ namespace FunctionFriend
             entryWeight.Text = "";
 
 
-
+            // if /else to calculate users Weight class
             if (bmiCalculated <=15)
             {
                 lblDisplay2.Text = "Very severely underweight ";

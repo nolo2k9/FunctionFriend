@@ -22,7 +22,7 @@ namespace FunctionFriend
             try
 
             {
-                //gte s accuracy of location
+                //gets accuracy of location
                 var request = new GeolocationRequest(GeolocationAccuracy.High);
                 var location = await Geolocation.GetLocationAsync(request);
 
